@@ -4,14 +4,409 @@
   <meta charset="utf-8">
   <title>Privacy Policy - MustDos</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for MustDos, a task and reminder app by MustDos Labs LLC.">
+
+  <style>
+    :root {
+      --background: #ffffff;
+      --surface: #f8fafc;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.65;
+      background: var(--background);
+      color: var(--text);
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 72px;
+    }
+
+    header {
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      line-height: 1.15;
+      margin: 0 0 12px;
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 36px;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 22px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin-top: 8px;
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent-dark);
+      text-decoration: underline;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      margin: 18px 0;
+    }
+
+    .summary-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .summary-list li {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      background: #ffffff;
+      margin-bottom: 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 44px;
+      padding-top: 22px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 24px 16px 56px;
+      }
+
+      header {
+        padding: 22px;
+      }
+
+      h1 {
+        font-size: 1.85rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Privacy Policy for MustDos</h1>
-  <p>Effective date: April 30, 2026</p>
+  <main class="page">
+    <header>
+      <h1>Privacy Policy for MustDos</h1>
+      <p class="muted">Effective date: April 30, 2026</p>
+      <p>
+        MustDos is a task and reminder app provided by MustDos Labs LLC.
+        This Privacy Policy explains how we collect, use, store, and protect information when you use MustDos.
+      </p>
+    </header>
 
-  <p>MustDos is provided by MustDos Labs LLC.</p>
+    <section>
+      <h2>1. Summary</h2>
+      <p>
+        We designed MustDos to be simple and privacy-conscious. The current version of MustDos does not require an account,
+        does not sell your personal information, and does not show third-party ads.
+      </p>
 
-  <h2>Contact</h2>
-  <p>Email: support@mustdos.app</p>
+      <ul class="summary-list">
+        <li><strong>Task data:</strong> Your tasks, notes, due dates, and reminders are stored locally on your device.</li>
+        <li><strong>No account required:</strong> MustDos does not currently require you to create an account or sign in.</li>
+        <li><strong>No sale of personal information:</strong> We do not sell your personal information.</li>
+        <li><strong>No ads:</strong> The current version of MustDos does not show third-party ads.</li>
+        <li><strong>Crash diagnostics:</strong> We may use Firebase Crashlytics to help detect, diagnose, and fix app crashes.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. Information You Provide in the App</h2>
+      <p>
+        When you use MustDos, you may enter information such as:
+      </p>
+      <ul>
+        <li>Task titles</li>
+        <li>Task notes or descriptions</li>
+        <li>Due dates</li>
+        <li>Reminder dates and times</li>
+        <li>Task completion status</li>
+        <li>App preferences or settings</li>
+      </ul>
+      <p>
+        This information is used to provide the core features of the app, including creating tasks, editing tasks,
+        organizing your task list, displaying reminders, and showing task-related information inside the app or related app widgets.
+      </p>
+      <p>
+        In the current version of MustDos, this task information is stored locally on your device. MustDos Labs LLC does not
+        operate a cloud account system that stores, syncs, or displays your task content on our own servers.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Information Collected Automatically</h2>
+      <p>
+        MustDos may collect limited technical and diagnostic information automatically to help us maintain and improve the app.
+        This information may include:
+      </p>
+      <ul>
+        <li>Crash reports</li>
+        <li>Stack traces and error information</li>
+        <li>App version and build information</li>
+        <li>Device model and operating system version</li>
+        <li>Technical identifiers used for crash diagnosis</li>
+        <li>Thread name, error type, and limited technical custom keys related to app stability</li>
+        <li>Basic information about the state of the app when a crash or error occurred</li>
+      </ul>
+      <p>
+        We use this information to diagnose app crashes, fix bugs, improve reliability, and understand stability issues.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Firebase Crashlytics</h2>
+      <p>
+        MustDos may use Firebase Crashlytics, a crash reporting service provided by Google, to help identify,
+        prioritize, and fix crashes and stability issues.
+      </p>
+      <p>
+        Crashlytics may process technical diagnostic information such as crash stack traces, app version,
+        device model, operating system version, and crash-related identifiers.
+      </p>
+      <p>
+        MustDos is designed so that task titles, task notes, reminder text, and other user-created task content
+        are not intentionally sent to Crashlytics. However, crash reports may include technical information
+        related to the error or app state at the time of the crash.
+      </p>
+      <p>
+        You should avoid entering highly sensitive personal information into task titles or notes.
+      </p>
+      <p>
+        You can learn more about Google’s privacy practices here:
+        <a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>5. How We Use Information</h2>
+      <p>
+        We use information for the following purposes:
+      </p>
+      <ul>
+        <li>To provide task creation, editing, completion, reminder, and organization features</li>
+        <li>To store your tasks and app preferences locally on your device</li>
+        <li>To display reminders and task-related app notifications</li>
+        <li>To support app widgets and other app functionality you enable</li>
+        <li>To diagnose crashes, errors, and performance problems</li>
+        <li>To improve app stability, reliability, usability, and user experience</li>
+        <li>To protect the app, prevent misuse, and comply with applicable legal or platform requirements</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Local Notifications and Reminders</h2>
+      <p>
+        MustDos may use local device notifications to remind you about tasks. Reminder information is used to schedule
+        and display notifications on your device.
+      </p>
+      <p>
+        Notification content may include task-related information you entered, such as a task title or reminder time,
+        so that the reminder is useful to you. These notifications are generated on your device.
+      </p>
+      <p>
+        You can manage notification permissions through your device settings.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. App Widgets</h2>
+      <p>
+        MustDos may provide app widgets that display your task information on your device home screen or other supported areas.
+        Widget content is based on task data stored locally on your device.
+      </p>
+      <p>
+        Be aware that information displayed in a widget may be visible to anyone who can view your device screen.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Information Sharing</h2>
+      <p>
+        We do not sell your personal information.
+      </p>
+      <p>
+        We may share limited technical and diagnostic information with service providers that help us operate,
+        maintain, and improve MustDos. For example, Firebase Crashlytics may process crash and diagnostic information
+        so we can identify and fix app stability issues.
+      </p>
+      <p>
+        We may also disclose information if required to do so by law, regulation, legal process, or enforceable
+        governmental request, or if necessary to protect the rights, safety, or security of MustDos Labs LLC,
+        our users, or others.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Data Storage and Retention</h2>
+      <p>
+        Task information you create in MustDos is stored locally on your device in the current version of the app.
+        This local task information remains on your device unless you delete it, clear the app’s data, uninstall the app,
+        or your device operating system removes it according to your settings or device behavior.
+      </p>
+      <p>
+        Crash and diagnostic information may be retained by our service providers for a limited period so that we can
+        analyze, troubleshoot, and fix app issues.
+      </p>
+      <p>
+        We keep information only as long as reasonably necessary for the purposes described in this Privacy Policy,
+        unless a longer retention period is required or permitted by law.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Data Deletion</h2>
+      <p>
+        Because the current version of MustDos does not require an account and stores task information locally on your device,
+        you can delete your task information by:
+      </p>
+      <ul>
+        <li>Deleting individual tasks inside the app</li>
+        <li>Clearing the app’s data through your device settings</li>
+        <li>Uninstalling the app from your device</li>
+      </ul>
+      <p>
+        If you contact us with a privacy-related request, we will make reasonable efforts to help based on the information
+        available to us. Because MustDos does not currently require accounts, we may not be able to identify or retrieve
+        local task data stored only on your device.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Security</h2>
+      <p>
+        We use reasonable technical and organizational measures designed to protect information handled by MustDos.
+        However, no method of electronic storage, transmission, or processing is completely secure.
+      </p>
+      <p>
+        You are responsible for maintaining the security of your device, including using device lock features,
+        keeping your operating system updated, and controlling who can access your device.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Children’s Privacy</h2>
+      <p>
+        MustDos is not directed to children under 13. We do not knowingly collect personal information from children under 13.
+      </p>
+      <p>
+        If you believe that a child has provided personal information to us, please contact us so we can review the situation
+        and take appropriate action.
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Third-Party Services</h2>
+      <p>
+        MustDos may use third-party services that help us provide, maintain, or improve the app. These services may process
+        information according to their own privacy policies and terms.
+      </p>
+      <p>
+        Third-party services currently may include:
+      </p>
+      <ul>
+        <li>Firebase Crashlytics, for crash reporting and app stability diagnostics</li>
+        <li>Google Play services or Google Play platform features, as part of Android app distribution and operation</li>
+      </ul>
+      <p>
+        Google’s Privacy Policy is available at:
+        <a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>14. International Users</h2>
+      <p>
+        If you use MustDos outside the United States, information processed by service providers may be transferred to
+        and processed in countries where privacy laws may differ from those in your location.
+      </p>
+      <p>
+        By using MustDos, you understand that information may be processed as described in this Privacy Policy.
+      </p>
+    </section>
+
+    <section>
+      <h2>15. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. When we make changes, we will update the effective date
+        at the top of this page.
+      </p>
+      <p>
+        Your continued use of MustDos after a Privacy Policy update means you acknowledge the updated policy.
+      </p>
+    </section>
+
+    <section>
+      <h2>16. Contact Us</h2>
+      <p>
+        If you have questions about this Privacy Policy or privacy practices for MustDos, you can contact us at:
+      </p>
+
+      <div class="card">
+        <p><strong>MustDos Labs LLC</strong></p>
+        <p>Email: <a href="mailto:support@mustdos.app">support@mustdos.app</a></p>
+        <p>Website: <a href="https://mustdos.app" rel="noopener noreferrer">https://mustdos.app</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 MustDos Labs LLC. All rights reserved.</p>
+    </footer>
+  </main>
 </body>
 </html>
